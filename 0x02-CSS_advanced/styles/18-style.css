@@ -147,7 +147,7 @@ a:active {
 
     .nav.nav-link {
         display: block;
-        padding: 50%, 100%, 50%, 100%;
+        padding: 0.5rem, 1rem;
     }
 
     nav.nav-link:hover {
@@ -202,7 +202,7 @@ a:active {
      --section-tagline-transform: uppercase;
 
      /*spacing*/
-     --nav-item-letter-spacing: 4%;
+     --nav-item-letter-spacing: 0.04rem;
     /*end*/
 
     /*lines*/
@@ -216,7 +216,7 @@ a:active {
 
     /*margins*/
     --section-title-margin: 0;
-    --nav-item-margin: 0, 0, 300%;
+    --nav-item-margin: 0, 0, 3rem;
 
     /*paddings*/
     --section-padding: 5rem 0; 
