@@ -132,7 +132,7 @@ a:active {
 .nav {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style: none;
     text-align: center;
 }
 
@@ -147,7 +147,7 @@ a:active {
 
     .nav .nav-link {
         display: block;
-        padding: 0.5rem, 1rem;
+        padding: 0.5rem 1rem;
     }
 
     nav .nav-link:hover {
@@ -216,7 +216,7 @@ a:active {
 
     /*margins*/
     --section-title-margin: 0;
-    --nav-item-margin: 0, 0, 3rem, 0;
+    --nav-item-margin: 0 0 3rem 0;
 
     /*paddings*/
     --section-padding: 5rem 0; 
