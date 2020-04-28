@@ -1,11 +1,14 @@
 
 /* 
-14. Resetting the CSS stylesheet for browser consistency
+16. Styling the container 
 
-Based on styles/13-style.css:
+Based on styles/15-style.css:
 
-Normalize your CSS file using necolas’ normalize.css with this version.
-*/ 
+After the styles for .section-tagline,
+
+Target the container class and set the following:
+- 960px wide
+- evenly distribute the margins on both the left and and right side
 
 /*
 ## Rules ##
@@ -76,7 +79,8 @@ a:active {
 
 .container {
     width: 960px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-title {
