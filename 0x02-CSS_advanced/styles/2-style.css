@@ -1,0 +1,35 @@
+/*
+## Variables ##
+*/
+:root {
+    --main-foreground-color: #161616;
+    --second-foreground-color: #D73953;
+}
+
+/*
+## Rules ##
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--main-foreground-color);
+}
+
+a {
+    color: var(--main-foreground-color);
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color: var(--second-foreground-color);
+}
+
+.section-tagline {
+    color: var(--second-foreground-color);
+}
