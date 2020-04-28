@@ -1,12 +1,4 @@
 /*
-## Variables ##
-*/
-:root {
-    --main-foreground-color: #161616;
-    --second-foreground-color: #D73953;
-}
-
-/*
 ## Rules ##
 */
 
@@ -15,11 +7,11 @@ html {
 }
 
 body {
-    color: var(--main-foreground-color);
+    color: #161616;
 }
 
 a {
-    color: var(--main-foreground-color);
+    color: #161616;
 }
 
 .visually-hidden {
@@ -27,9 +19,9 @@ a {
 }
 
 .card-category {
-    color: var(--second-foreground-color);
+    color:  #D73953;
 }
 
 .section-tagline {
-    color: var(--second-foreground-color);
+    color:  #D73953;
 }
