@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/DiegoOrejuela/holbertonschool-web_front_end/tree/master/0x00-html_advanced">
     <img src="favicon.png" alt="Logo" width="80" height="80">
   </a>
 
