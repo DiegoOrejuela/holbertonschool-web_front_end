@@ -9,6 +9,13 @@
 
   <p align="center">
     Project testimony of the use of the Google elements inspector
+    <br />
+    <br />
+    <a href="https://github.com/DiegoOrejuela/holbertonschool-web_front_end/blob/master/0x01-developer_tools/README.md">Explore the docs</a>
+    ·
+    <a href="https://github.com/DiegoOrejuela/holbertonschool-web_front_end/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/DiegoOrejuela/holbertonschool-web_front_end/issues">Request Feature</a>
   </p>
 </p>
 
