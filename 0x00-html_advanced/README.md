@@ -15,7 +15,7 @@
   <h3 align="center">Techium project - Advanced HTML</h3>
 
   <p align="center">
-    Use HTML tags to structure a web page Techium
+    Landing page template with html
     <br />
     <a href="https://diegoorejuela.github.io/holbertonschool-web_front_end/0x00-html_advanced/"><strong>View Demo »</strong></a>
     <br />
@@ -69,7 +69,7 @@ Html structure of the Techium website template, with images and without css, to 
 <!-- USAGE -->
 ## Usage
 
-Only you can clone this repository and copy directory `0x00-html_advanced`:
+Only you need clone this repository and copy directory `0x00-html_advanced`:
 
 ```sh
 cp -r holbertonschool-web_front_end/0x00-html_advanced <path-new-directory>
