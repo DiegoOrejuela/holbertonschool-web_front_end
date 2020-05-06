@@ -1,0 +1,21 @@
+/*
+8. Margin mixin
+
+Write a Sass file that assigns:
+- Margin left and right at 10px to body tags
+- Margin left and right at 15px to div tags
+- You must use a mixin
+*/
+
+@mixin shared-properties($property) {
+    margin-left: $property;
+    margin-right: $property;
+}
+
+body {
+    @include shared-properties(10px);
+}
+
+div {
+    @include shared-properties(15px);
+}
