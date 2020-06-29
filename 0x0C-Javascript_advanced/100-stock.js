@@ -1,17 +1,28 @@
-function createElement (data) {
-    let paragraph = document.createElement('p');
-    let textNode = document.createTextNode(data);
-    paragraph.appendChild(textNode);
-    document.body.appendChild(paragraph);
+let stock = {
+    macbook: 2,
+    iphone: 4
 }
 
-function queryWikipedia (callback) {
-    let xhttp = new XMLHttpRequest();
-    xhttp.open("GET", "https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=Stack%20Overflow");
+function processPayment (itemName) {
+    stock[itemName] -= 1;
+    console.log('Payment is being processed for item ' + itemName);
+
+}
+
+function processError (itemName) {
+    console.log('No more ' + itemName +  ' in stock');
+    console.log('Payment is not being processed')
     
-    xhttp.responseType = 'json';
-    xhttp.send();
-    xhttp.onload = () => callback(xhttp.response.query.pages["21721040"].extract);
 }
 
-queryWikipedia(createElement());
+function processOrder (itemName, callbackPayment, callbackError) {
+    let itemNameFormated = itemName.toLowerCase();
+    if (!stock[itemNameFormated]) {
+        return;
+    }
+
+    stock[itemNameFormated] == 0 ? callbackError(itemNameFormated) : callbackPayment(itemNameFormated)
+}
+
+let text  = prompt("Please enter the item you would like to purchase (Macbook, iPhone)");
+processOrder(text, processPayment, processError);
